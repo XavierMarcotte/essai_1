@@ -1,0 +1,33 @@
+.buton_1{
+    margin: 5em auto auto 20em;
+    padding: 2em;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    font-size: 1em;
+}
+.buton_1:hover{
+    background-color: purple;
+    color: white;
+    transition: 0.4s ease;
+    border: 1.5px solid white;
+}
+.buton_1:active{
+    transform: scale(1.2);
+}
+#arrow_down{
+    opacity: 0;
+    visibility: hidden;
+    color: white;
+}
+button:hover #arrow_right {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+button:hover #arrow_down {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s;
+    transform: translateX(1em);
+}
